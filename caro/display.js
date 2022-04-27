@@ -9,7 +9,7 @@ function display() {
                 stringTable += '<td onclick="play(' + i + ' ,' + j + ')" style="width: 60px; height: 60px ; color: rgb(0, 28, 189); font-size: 44px;    border: 1px solid #000;" >' + arr[i][j] + '</td>';;
             }
             else {
-                stringTable += '<td onclic1k="play(' + i + ' ,' + j + ')" style="width: 60px; height: 60px ; color: red;font-size: 44px"  "   >' + arr[i][j] + '</td>';;
+                stringTable += '<td onclick="play(' + i + ' ,' + j + ')" style="width: 60px; height: 60px ; color: red;font-size: 44px"  "   >' + arr[i][j] + '</td>';;
             }
             
         }
